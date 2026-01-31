@@ -128,7 +128,132 @@
     /* ==================================================
         5. TIPOGRAFÍA
     ================================================== */
+    /* @font-face Inter*/
+    @font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: normal;
+    src: url('./assets/fonts/Inter/Inter-Regular.woff') format('woff');
+    }
+    
 
+    @font-face {
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: normal;
+    src: url('./assets/fonts/Inter/Inter-Italic.woff') format('woff');
+    }
+
+    @font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    src: url('./assets/fonts/Inter/Inter-Medium.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 500;
+    src: url('./assets/fonts/Inter/Inter-MediumItalic.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    src: url('./assets/fonts/Inter/Inter-SemiBold.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 600;
+    src: url('./assets/fonts/Inter/Inter-SemiBoldItalic.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    src: url('./assets/fonts/Inter/Inter-Bold.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 700;
+    src: url('./assets/fonts/Inter/Inter-BoldItalic.woff') format('woff');
+    }
+
+    /* @font-face JetBrains Mono*/
+    @font-face {
+    font-family: 'JetBrains Mono';
+    font-style: normal;
+    font-weight: normal;
+    src: url('./assets/fonts/JetBrainsMono/JetBrainsMono-Regular.woff2') format('woff2');
+    }
+    
+
+    @font-face {
+    font-family: 'JetBrains Mono';
+    font-style: italic;
+    font-weight: normal;
+    src: url('./assets/fonts/JetBrainsMono/JetBrainsMono-Italic.woff2') format('woff2');
+    }
+
+    @font-face {
+    font-family: 'JetBrains Mono';
+    font-style: normal;
+    font-weight: 500;
+    src: url('./assets/fonts/JetBrainsMono/JetBrainsMono-Medium.woff2') format('woff2');
+    }
+    
+
+    @font-face {
+    font-family: 'JetBrains Mono';
+    font-style: italic;
+    font-weight: 500;
+    src: url('./assets/fonts/JetBrainsMono/JetBrainsMono-MediumItalic.woff2') format('woff2');
+    }
+    
+
+    @font-face {
+    font-family: 'JetBrains Mono';
+    font-style: normal;
+    font-weight: 600;
+    src: url('./assets/fonts/JetBrainsMono/JetBrainsMono-Bold.woff2') format('woff2');
+    }
+    
+
+    @font-face {
+    font-family: 'JetBrains Mono';
+    font-style: italic;
+    font-weight: 600;
+    src: url('./assets/fonts/JetBrainsMono/JetBrainsMono-BoldItalic.woff2') format('woff2');
+    }
+    
+
+    @font-face {
+    font-family: 'JetBrains Mono';
+    font-style: normal;
+    font-weight: 700;
+    src: url('./assets/fonts/JetBrainsMono/JetBrainsMono-ExtraBold.woff2') format('woff2');
+    }
+    
+
+    @font-face {
+    font-family: 'JetBrains Mono';
+    font-style: italic;
+    font-weight: 700;
+    src: url('./assets/fonts/JetBrainsMono/JetBrainsMono-ExtraBold-Italic.woff2') format('woff2');
+    }
+    
     --ff-sans: 'Inter', system-ui, -apple-system, sans-serif;
     --ff-mono: 'JetBrains Mono', monospace;
 
