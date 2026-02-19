@@ -20,3 +20,4 @@ function render() {
     renderWeather()
     renderAmbient()
 }
+render()
